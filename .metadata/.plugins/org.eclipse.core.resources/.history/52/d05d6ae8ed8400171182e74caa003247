@@ -1,0 +1,8 @@
+package cn.bjsxt.collection;
+
+public class TestCl {
+
+	public static void main(string[] args){
+		
+	}
+}

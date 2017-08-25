@@ -1,0 +1,11 @@
+package cn.bjsxt.collection;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class TestCl {
+
+	public static void main(String[] args){
+		List list = new ArrayList();
+	}
+}
