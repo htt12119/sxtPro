@@ -1,0 +1,27 @@
+package cn.bjsxt.collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/*
+ * 测试Map的基本方法
+ */
+public class TestMap {
+
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put("高琪", new Wife("张曼玉"));
+		map.put("刘恺威", new Wife("杨幂"));
+		
+	}
+
+}
+
+class Wife{
+	String name;
+
+	public Wife(String name) {
+		this.name = name;
+	}
+	
+}

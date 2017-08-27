@@ -33,8 +33,12 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="cn.bjsxt.collection.MyArrayList"/>
 <fullyQualifiedTypeName name="cn.bjsxt.collection.MyLinkedList"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="cn.bjsxt.collection.Entry"/>
+<fullyQualifiedTypeName name="cn.bjsxt.collection.MyMap01"/>
 </qualifiedTypeNameHistroy>

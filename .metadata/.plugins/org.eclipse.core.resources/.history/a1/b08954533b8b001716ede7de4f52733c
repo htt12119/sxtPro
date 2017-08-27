@@ -1,0 +1,14 @@
+package cn.bjsxt.collection;
+
+import java.util.HashMap;
+
+/*
+ * 测试Map的基本方法
+ */
+public class TestMap {
+
+	public static void main(String[] args) {
+		Map map = new HashMap();
+	}
+
+}

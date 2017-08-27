@@ -1,0 +1,9 @@
+package cn.bjsxt.collection;
+
+public class MyMap01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
