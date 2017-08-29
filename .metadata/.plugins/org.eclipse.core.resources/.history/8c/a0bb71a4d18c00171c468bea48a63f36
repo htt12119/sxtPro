@@ -1,0 +1,41 @@
+package cn.bjsxt.collection;
+
+import java.util.LinkedList;
+
+/**
+ * 自定义Map的升级版
+ * 1.提高查询的效率
+ * @author houtingting
+ *
+ */
+public class TestMap002 {
+	LinkedList arr[] = new LinkedList[999];
+	int size;
+	
+	public void put(Object key,Object value){
+		Entry e = new Entry(key,value);
+		
+		int a = key.hashCode()%999;
+		if(arr[a] == null){
+			LinkedList list = new LinkedList();
+			arr[a] = list;
+			list.add(e);
+		}else{
+			arr[a].add(e);
+		}
+	}
+	
+	public Object get(Object key){
+		int a = key.hashCode()%arr.length;
+		if(arr[a] != null){
+			LinkedList list = arr[a];
+			for(int i = 0;i < list.size();i++){
+				
+			}
+		}
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

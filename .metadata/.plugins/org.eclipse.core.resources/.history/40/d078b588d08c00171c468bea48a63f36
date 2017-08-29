@@ -1,0 +1,27 @@
+package cn.bjsxt.collection;
+
+/**
+ * 自定义Map的升级版
+ * 1.提高查询的效率
+ * @author houtingting
+ *
+ */
+public class TestMap002 {
+	Entry arr[] = new Entry[999];
+	int size;
+	
+	public void put(Object key,Object value){
+		Entry e = new Entry(key,value);
+		
+		int a = key.hashCode();
+		arr[a] = e;
+	}
+	
+	public Object get(Object key){
+		return arr[key.hashCode()%999];
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

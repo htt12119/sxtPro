@@ -17,7 +17,7 @@ public class MyLinkedList /*implements List*/{
 		System.out.println(list.get(1));
 	}
 
-	private void add(Object obj) {
+	public void add(Object obj) {
 		Node n = new Node();
 		if(first == null){
 			n.setPrevious(null);
