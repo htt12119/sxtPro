@@ -26,7 +26,7 @@ public class TestMap002 {
 			for(int i = 0;i < list.size();i++){
 				Entry e2 = (Entry)list.get(i);
 				if(e2.key.equals(key)){
-					e2.value = value;//¼üÖµÖØ¸´
+					e2.value = value;
 					return;
 				}
 			}
@@ -40,7 +40,7 @@ public class TestMap002 {
 			LinkedList list = arr[a];
 			for(int i = 0;i < list.size();i++){
 				Entry e = (Entry)list.get(i);
-				if(e.key.equals(key)){
+				if(e.equals(key)){
 					return e.value;
 				}
 			}
