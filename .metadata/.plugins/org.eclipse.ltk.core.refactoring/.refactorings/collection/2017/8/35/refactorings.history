@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;cn.bjsxt.collection.MySet.java&apos; to &apos;MyHashSet.java&apos;&#x0D;&#x0A;- Original project: &apos;collection&apos;&#x0D;&#x0A;- Original element: &apos;cn.bjsxt.collection.MySet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.bjsxt.collection.MyHashSet.java&apos;" description="Rename compilation unit &apos;MySet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;cn.bjsxt.collection{MySet.java" name="MyHashSet.java" references="false" stamp="1504193881259" version="1.0"/>
+</session>

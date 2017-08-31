@@ -14,10 +14,9 @@ public class MyLinkedList /*implements List*/{
 		list.add("abb");
 		list.add("ccb");
 		list.add(1,"ccdfdb");
-		list.add("c4");
 //		list.remove(1);
 		System.out.println(list.size());
-		System.out.println(list.get(4));
+		System.out.println(list.get(1));
 	}
 
 	public void add(Object obj) {

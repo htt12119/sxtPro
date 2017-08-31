@@ -1,0 +1,23 @@
+package cn.bjsxt.collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * 测试Set的常用方法
+ * @author houtingting
+ *
+ */
+public class TestSet {
+
+	public static void main(String[] args) {
+		Set set = new HashSet();
+		set.add("aaa");
+		set.add("bbb");
+		set.add(new String("aaa"));//跟上面的aaa是等价的，所以说size是2不是三
+		System.out.println(set.size());
+		boolean isa =set.contains("aaa");
+		System.out.println(isa);
+	}
+
+}

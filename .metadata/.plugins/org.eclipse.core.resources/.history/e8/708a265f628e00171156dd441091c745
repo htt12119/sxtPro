@@ -1,0 +1,21 @@
+package cn.bjsxt.collection;
+
+import java.util.HashMap;
+
+/**
+ * 自定义自己的Set
+ * @author houtingting
+ *
+ */
+public class MySet {
+	HashMap map;
+	
+	private static final Object PRESENT = new Object();
+	
+	public My
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

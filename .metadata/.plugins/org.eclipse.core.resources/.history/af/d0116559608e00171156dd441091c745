@@ -16,9 +16,7 @@ public class TestMap002 {
 	public void put(Object key,Object value){
 		Entry e = new Entry(key,value);
 		
-		int hash = key.hashCode();
-		hash = hash < 0?-hash:hash;
-		int a = hash%arr.length;
+		int a = key.hashCode()%arr.length;
 		if(arr[a] == null){
 			LinkedList list = new LinkedList();
 			arr[a] = list;

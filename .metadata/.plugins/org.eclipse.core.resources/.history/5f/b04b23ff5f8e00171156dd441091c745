@@ -1,7 +1,5 @@
 package cn.bjsxt.collection;
 
-import java.util.LinkedList;
-
 public class MyLinkedList /*implements List*/{
 	private Node first;
 	private Node last;
@@ -14,10 +12,9 @@ public class MyLinkedList /*implements List*/{
 		list.add("abb");
 		list.add("ccb");
 		list.add(1,"ccdfdb");
-		list.add("c4");
 //		list.remove(1);
 		System.out.println(list.size());
-		System.out.println(list.get(4));
+		System.out.println(list.get(1));
 	}
 
 	public void add(Object obj) {
@@ -66,19 +63,10 @@ public class MyLinkedList /*implements List*/{
 	public Node node(int index){
 		Node temp = null;
 		if(first != null){
-			if(index < (size >> 1)){
-				temp = first;
-				for(int i = 0;i < index;i++){
-					temp = temp.next;
-				}
-			}else{
-				temp = last;
-				for(int i = size - 1;i > index;i--){
-					temp = temp.previous;
-				}
-			}
+			temp = first;
+			for(int i = 0;i < index;i++)
+				temp = temp.next;
 		}
-		LinkedList l;
 		return temp;
 	}
 	

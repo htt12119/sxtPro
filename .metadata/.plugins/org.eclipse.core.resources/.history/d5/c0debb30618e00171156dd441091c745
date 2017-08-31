@@ -1,0 +1,14 @@
+package cn.bjsxt.collection;
+
+/**
+ * 测试Set的常用方法
+ * @author houtingting
+ *
+ */
+public class TestSet {
+
+	public static void main(String[] args) {
+
+	}
+
+}
