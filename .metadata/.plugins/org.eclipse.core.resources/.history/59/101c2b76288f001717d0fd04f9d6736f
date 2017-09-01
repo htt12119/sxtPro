@@ -1,0 +1,25 @@
+package cn.bjsxt.collection2;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		e.setId(0301);
+		e.setName("高琪");
+		e.setDepartment("项目部");
+		e.setSalary(3000);
+		String strDate = "2007-10";
+		DateFormat format = new SimpleDateFormat("yyyy-MM");
+		try {
+			e.setHireDate(format.parse(strDate));
+		} catch (ParseException e1) {
+			e1.printStackTrace();
+		}
+	}
+
+}

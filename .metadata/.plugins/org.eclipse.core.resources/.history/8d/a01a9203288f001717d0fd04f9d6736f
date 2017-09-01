@@ -1,0 +1,12 @@
+package cn.bjsxt.collection2;
+
+import java.util.Date;
+
+public class Employee {
+	private int id;
+	private String name;
+	private int salary;
+	private String department;
+	private Date hireDate;
+
+}
